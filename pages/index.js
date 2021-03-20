@@ -1,22 +1,20 @@
-import Head from 'next/head'
+
 import styles from '../styles/Home.module.css'
+import styled from 'styled-components'
+
+
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Escolha seu quiz!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          todos os quizes disponíveis logo abaixo.
         </p>
 
         <div className={styles.grid}>

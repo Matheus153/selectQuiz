@@ -1,0 +1,13 @@
+{
+    "theme": {
+        "colors": {
+          "primary": "#222222",
+          "secondary": "#912628",
+          "mainBg": "rgba(31, 29, 29, 0.93)",
+          "contrastText": "#d7d7e0",
+          "wrong": "#cF2412",
+          "success": "#4CAF50"
+        },
+        "borderRadius": "4px"
+    }
+}

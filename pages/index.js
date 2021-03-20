@@ -17,21 +17,21 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="http://quiz-srnovato.vercel.app/" className={styles.card}>
-            <h3>Quiz BTS &rarr; <img src={"bts-ico.png"} alt="bts" width="50px"/></h3>
+          <a href={db.links.bts} className={styles.card}>
+            <h3>Quiz BTS &rarr; <img src={db.icons.bts} alt="bts" width="50px"/></h3>
             <p>Um jogo divertido para os Army's, amantes de BTS</p>
           </a>
 
-          <a href="https://quiz-rpg.vercel.app" className={styles.card}>
-            <h3>Quiz RPG &rarr;  <img src={"rpg-icon.png"} alt="rpg-icon"/></h3>
+          <a href={db.links.rpg} className={styles.card}>
+            <h3>Quiz RPG &rarr;  <img src={db.icons.rpg} alt="rpg-icon"/></h3>
             <p>Um quiz espetacular para aprender mais sobre este rico universo!</p>
           </a>
 
           <a
-            href="https://quiz-harry-styles.vercel.app"
+            href={db.links.harry}
             className={styles.card}
           >
-            <h3>Quiz Harry Styles &rarr; <img src={"favicon.png"} alt="watermelon"/></h3>
+            <h3>Quiz Harry Styles &rarr; <img src={db.icons.harry} alt="watermelon"/></h3>
             <p>Descubra curiosidades sobre seu cantor favorito.</p>
           </a>
 

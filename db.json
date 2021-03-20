@@ -1,4 +1,16 @@
 {
+    "links": {
+        "bts": "http://quiz-srnovato.vercel.app/",
+        "rpg": "https://quiz-rpg.vercel.app",
+        "harry": "https://quiz-harry-styles.vercel.app"
+    },
+
+    "icons": {
+      "bts": "bts-ico.png",
+      "rpg": "rpg-icon.png",
+      "harry": "harry.png"
+    },
+
     "theme": {
         "colors": {
           "primary": "#222222",

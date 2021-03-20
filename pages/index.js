@@ -1,6 +1,7 @@
 
 import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
+import db from '../db.json'
 
 
 
@@ -55,7 +56,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src={db.theme.quizlogo} alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>

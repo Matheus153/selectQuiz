@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+
 import React from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Head from 'next/head';
@@ -26,9 +26,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
+    margin-bottom: 2vh;
+    opacity: .95;
   }
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+    opacity: .9
+  }
+
 
   a {
     color: inherit;

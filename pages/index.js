@@ -19,33 +19,25 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="http://quiz-srnovato.vercel.app/" className={styles.card}>
+            <h3>Quiz BTS &rarr; <img src={"bts-ico.png"} alt="bts" width="50px"/></h3>
+            <p>Um jogo divertido para os Army's, amantes de BTS</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h3>Quiz RPG &rarr;  <img src={"rpg-icon.png"} alt="rpg-icon"/></h3>
+            <p>Um quiz espetacular para aprender mais sobre este rico universo!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://quiz-harry-styles.vercel.app"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Quiz Harry Styles &rarr; <img src={"favicon.png"} alt="watermelon"/></h3>
+            <p>Descubra curiosidades sobre seu cantor favorito.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+         
         </div>
       </main>
 

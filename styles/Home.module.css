@@ -49,6 +49,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
+  margin-bottom: 20px;
   
 }
 
@@ -59,7 +60,7 @@
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .code {
@@ -96,8 +97,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #5439bf;
+  border-color: #5439bf;
 }
 
 .card h3 {
@@ -105,11 +106,7 @@
   font-size: 1.5rem;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
+
 
 .logo {
   height: 1.2em;
@@ -119,5 +116,13 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .title, .description{
+    text-align: left;
+  }
+
+  .description {
+    margin-left: 10%;
   }
 }

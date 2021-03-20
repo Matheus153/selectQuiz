@@ -3,8 +3,6 @@ import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
 import db from '../db.json'
 
-
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -24,7 +22,7 @@ export default function Home() {
             <p>Um jogo divertido para os Army's, amantes de BTS</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://quiz-rpg.vercel.app" className={styles.card}>
             <h3>Quiz RPG &rarr;  <img src={"rpg-icon.png"} alt="rpg-icon"/></h3>
             <p>Um quiz espetacular para aprender mais sobre este rico universo!</p>
           </a>

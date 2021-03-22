@@ -28,7 +28,7 @@ Cria uma página que proporciona você escolher todos os conteúdos que produzi 
 
 ## Autor 
 
-<img align="center" src="https://avatars1.githubusercontent.com/u/62727591?s=460&u=03f8868eec3f187e0c33d7311b5bca386c8419c7&v=4">
+<img align="center" width="150" src="https://avatars1.githubusercontent.com/u/62727591?s=460&u=03f8868eec3f187e0c33d7311b5bca386c8419c7&v=4">
 
 ### |Matheus Santos|
 

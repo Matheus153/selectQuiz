@@ -3,52 +3,61 @@ import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
 import db from '../db.json'
 
+import Father from '../src/components/Father'
+import Quizes from '../src/components/Quizes'
+import Footer from '../src/components/Footer'
+
+const Main = styled.div`
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Father>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Escolha seu quiz!
-        </h1>
+      <Main>
+        <h1>Escolha seu quiz!</h1>
 
         <p className={styles.description}>
           todos os quizes disponíveis logo abaixo.
         </p>
 
-        <div className={styles.grid}>
-          <a href={db.links.bts} className={styles.card}>
+       <Quizes>
+         <Quizes.Card href={db.links.bts}>
             <h3>Quiz BTS &rarr; <img src={db.icons.bts} alt="bts" width="50px"/></h3>
-            <p>Um jogo divertido para os Army's, amantes de BTS</p>
-          </a>
+            <p>{db.descriptions.bts}</p>
+         </Quizes.Card>
 
-          <a href={db.links.rpg} className={styles.card}>
+         <Quizes.Card  href={db.links.rpg}>
             <h3>Quiz RPG &rarr;  <img src={db.icons.rpg} alt="rpg-icon"/></h3>
-            <p>Um quiz espetacular para aprender mais sobre este rico universo!</p>
-          </a>
+            <p>{db.descriptions.rpg}</p>
+         </Quizes.Card>
 
-          <a
-            href={db.links.harry}
-            className={styles.card}
-          >
+         <Quizes.Card href={db.links.harry}>
             <h3>Quiz Harry Styles &rarr; <img src={db.icons.harry} alt="watermelon"/></h3>
-            <p>Descubra curiosidades sobre seu cantor favorito.</p>
-          </a>
-
+            <p>{db.descriptions.harry}</p>
+         </Quizes.Card>
          
-        </div>
-      </main>
+       </Quizes>
 
-      <footer className={styles.footer}>
+      </Main>
+
+      <Footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src={db.theme.quizlogo} alt="Vercel Logo" className={styles.logo} />
+          <img src={db.theme.quizlogo} alt="Novato Logo" height="20em" />
         </a>
-      </footer>
-    </div>
+      </Footer>
+  
+    </Father>
   )
 }

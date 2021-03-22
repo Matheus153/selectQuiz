@@ -26,9 +26,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h1 {
+    margin: 0;
     font-size: 2em;
+    line-height: 1.15;
     font-weight: 700;
-    margin-bottom: 2vh;
+    margin-bottom: 20px;
     opacity: .95;
   }
 

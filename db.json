@@ -11,6 +11,12 @@
       "harry": "harry.png"
     },
 
+    "descriptions": {
+      "bts": "Um jogo divertido para os Army's, amantes de BTS.",
+      "rpg": "Um quiz espetacular para aprender mais sobre este rico universo!",
+      "harry": "Descubra curiosidades sobre seu cantor favorito."
+    },
+
     "theme": {
         "colors": {
           "primary": "#222222",

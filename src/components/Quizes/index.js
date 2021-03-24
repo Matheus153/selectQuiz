@@ -21,13 +21,14 @@ Quizes.Card = styled.a`
   color: inherit;
   text-decoration: none;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  transition: color 0.3s ease /* border-color 0.15s ease */;
   background-color: #202125;
   
   &:hover,
   &:focus,
   &:active {
     color: #fefefe;
+    background-color: #242528
   }
 
   h3 {

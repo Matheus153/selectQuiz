@@ -1,5 +1,4 @@
 
-import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
 import db from '../db.json'
 
@@ -16,6 +15,17 @@ const Main = styled.div`
   align-items: center;
 `
 
+const Description = styled.p`
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.25rem;
+
+  @media (max-width: 600px) {
+    text-align: left;
+    margin-left: 10%;
+}
+`
+
 export default function Home() {
   return (
     <Father>
@@ -23,9 +33,7 @@ export default function Home() {
       <Main>
         <h1>Escolha seu quiz!</h1>
 
-        <p className={styles.description}>
-          todos os quizes disponíveis logo abaixo.
-        </p>
+        <Description> todos os quizes disponíveis logo abaixo.</Description>
 
        <Quizes>
          <Quizes.Card href={db.links.bts}>

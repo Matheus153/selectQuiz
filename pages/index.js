@@ -44,7 +44,7 @@ export default function Home() {
          <Quizes.Card  href={db.links.rpg}>
             <h3>Quiz RPG &rarr;  <Quizes.Logo src={db.icons.rpg} alt="rpg-icon"/></h3>
             <p>{db.descriptions.rpg}</p>
-         </Quizes.Card>s
+         </Quizes.Card>
 
          <Quizes.Card href={db.links.harry}>
             <h3>Quiz Harry Styles &rarr; <Quizes.Logo src={db.icons.harry} alt="watermelon"/></h3>

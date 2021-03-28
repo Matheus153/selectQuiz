@@ -37,17 +37,17 @@ export default function Home() {
 
        <Quizes>
          <Quizes.Card href={db.links.bts}>
-            <h3>Quiz BTS &rarr; <img src={db.icons.bts} alt="bts" width="50px"/></h3>
+            <h3>Quiz BTS &rarr; <Quizes.Logo src={db.icons.bts} alt="bts" width="50px"/></h3>
             <p>{db.descriptions.bts}</p>
          </Quizes.Card>
 
          <Quizes.Card  href={db.links.rpg}>
-            <h3>Quiz RPG &rarr;  <img src={db.icons.rpg} alt="rpg-icon"/></h3>
+            <h3>Quiz RPG &rarr;  <Quizes.Logo src={db.icons.rpg} alt="rpg-icon"/></h3>
             <p>{db.descriptions.rpg}</p>
-         </Quizes.Card>
+         </Quizes.Card>s
 
          <Quizes.Card href={db.links.harry}>
-            <h3>Quiz Harry Styles &rarr; <img src={db.icons.harry} alt="watermelon"/></h3>
+            <h3>Quiz Harry Styles &rarr; <Quizes.Logo src={db.icons.harry} alt="watermelon"/></h3>
             <p>{db.descriptions.harry}</p>
          </Quizes.Card>
          

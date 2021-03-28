@@ -37,4 +37,8 @@ Quizes.Card = styled.a`
   }
 `
 
+Quizes.Logo = styled.img`
+  width: 50px;    
+`
+
 export default Quizes

@@ -50,6 +50,11 @@ export default function Home() {
             <h3>Quiz Harry Styles &rarr; <Quizes.Logo src={db.icons.harry} alt="watermelon"/></h3>
             <p>{db.descriptions.harry}</p>
          </Quizes.Card>
+
+         <Quizes.Card href={db.links.pink}>
+            <h3>Quiz Black Pink &rarr; <Quizes.Logo src={db.icons.pink} alt="watermelon"/></h3>
+            <p>{db.descriptions.pink}</p>
+         </Quizes.Card>
          
        </Quizes>
 

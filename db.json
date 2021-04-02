@@ -1,20 +1,23 @@
 {
     "links": {
         "bts": "http://quiz-srnovato.vercel.app/",
-        "rpg": "https://quiz-rpg.vercel.app",
-        "harry": "https://quiz-harry-styles.vercel.app"
+        "rpg": "https://quiz-rpg.vercel.app/",
+        "harry": "https://quiz-harry-styles.vercel.app/",
+        "pink": "https://quiz-black-pink.vercel.app/"
     },
 
     "icons": {
       "bts": "bts-ico.png",
       "rpg": "rpg-icon.png",
-      "harry": "harry.png"
+      "harry": "harry.png",
+      "pink": "logoPink.png"
     },
 
     "descriptions": {
       "bts": "Um jogo divertido para os Army's, amantes de BTS.",
       "rpg": "Um quiz espetacular para aprender mais sobre este rico universo!",
-      "harry": "Descubra curiosidades sobre seu cantor favorito."
+      "harry": "Descubra curiosidades sobre seu cantor favorito.",
+      "pink": "Um quiz sobre seu grupo feminino favorito de K-pop!"
     },
 
     "theme": {

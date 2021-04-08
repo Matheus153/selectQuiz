@@ -52,8 +52,13 @@ export default function Home() {
          </Quizes.Card>
 
          <Quizes.Card href={db.links.pink}>
-            <h3>Quiz Black Pink &rarr; <Quizes.Logo src={db.icons.pink} alt="watermelon"/></h3>
+            <h3>Quiz Black Pink &rarr; <Quizes.Logo src={db.icons.pink} alt="pink"/></h3>
             <p>{db.descriptions.pink}</p>
+         </Quizes.Card>
+
+         <Quizes.Card href={db.links.snk}>
+            <h3>Quiz Shingenki &rarr; <Quizes.Logo src={db.icons.snk} alt="snk"/></h3>
+            <p>{db.descriptions.snk}</p>
          </Quizes.Card>
          
        </Quizes>

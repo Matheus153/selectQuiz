@@ -28,7 +28,7 @@ Quizes.Card = styled.a`
   &:focus,
   &:active {
     color: #fefefe;
-    background-color: #242528
+    background-color: #242528;
   }
 
   h3 {

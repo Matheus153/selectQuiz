@@ -8,9 +8,6 @@ const Father = styled.div`
   justify-content: center;
   align-items: center;
 
-  h1 {
-    text-shadow: 0px 0px 20px rgba(200, 200, 200, 0.8);
-  }
 `
 
 export default Father

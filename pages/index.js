@@ -33,7 +33,7 @@ export default function Home() {
       <Main>
         <h1>Escolha seu quiz!</h1>
 
-        <Description> todos os quizes disponíveis logo abaixo.</Description>
+        <Description> todos os quizzes disponíveis abaixo.</Description>
 
        <Quizes>
          <Quizes.Card href={db.links.bts}>

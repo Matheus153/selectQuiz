@@ -19,11 +19,6 @@ const Description = styled.p`
   text-align: center;
   line-height: 1.5;
   font-size: 1.25rem;
-
-  @media (max-width: 600px) {
-    text-align: left;
-    margin-left: 10%;
-}
 `
 
 export default function Home() {

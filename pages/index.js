@@ -52,7 +52,7 @@ export default function Home() {
          </Quizes.Card>
 
          <Quizes.Card href={db.links.snk}>
-            <h3>Quiz Shingenki &rarr; <Quizes.Logo src={db.icons.snk} alt="snk"/></h3>
+            <h3>Quiz Shingenki &rarr; <Quizes.Snk src={db.icons.snk} alt="snk"/></h3>
             <p>{db.descriptions.snk}</p>
          </Quizes.Card>
          

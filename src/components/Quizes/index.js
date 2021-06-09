@@ -41,4 +41,8 @@ Quizes.Logo = styled.img`
   width: 50px;    
 `
 
+Quizes.Snk = styled.img `
+  width: 30px;
+`
+
 export default Quizes

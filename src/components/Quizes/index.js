@@ -14,7 +14,7 @@ const Quizes = styled.div`
 `
 
 Quizes.Card = styled.a`
-  border: 1px solid #fefefe;
+  border: 1px solid #f0f0f0;
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;

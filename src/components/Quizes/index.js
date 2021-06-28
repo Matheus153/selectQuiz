@@ -14,6 +14,7 @@ const Quizes = styled.div`
 `
 
 Quizes.Card = styled.a`
+  border: 1px solid #fefefe;
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -21,14 +22,14 @@ Quizes.Card = styled.a`
   color: inherit;
   text-decoration: none;
   border-radius: 10px;
-  transition: color 0.3s ease /* border-color 0.15s ease */;
-  background-color: #202125;
+  transition: color 1s ease /* border-color 0.15s ease */;
+  background-color: #141820;
   
   &:hover,
   &:focus,
   &:active {
     color: #fefefe;
-    background-color: #242528;
+    background-color: #1A202C;
   }
 
   h3 {

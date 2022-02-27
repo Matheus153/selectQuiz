@@ -22,8 +22,8 @@ const GlobalStyle = createGlobalStyle`
   }
   html, body {
     min-height: 100vh;
-    background: rgb(26,32,44);
-background: radial-gradient(circle, rgba(26,32,44,1) 0%, rgba(16,19,24,1) 65%, rgba(4,17,32,1) 100%);
+    background: #1a202c;
+/* background: radial-gradient(circle, rgba(26,32,44,1) 0%, rgba(16,19,24,1) 65%, rgba(4,17,32,1) 100%); */
   }
 
   h1 {

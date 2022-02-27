@@ -32,27 +32,27 @@ export default function Home() {
 
        <Quizes>
          <Quizes.Card href={db.links.bts}>
-            <h3>Quiz BTS &rarr; <Quizes.Logo src={db.icons.bts} alt="bts" width="50px"/></h3>
+            <h3>BTS &rarr; <Quizes.Logo src={db.icons.bts} alt="bts" width="50px"/></h3>
             <p>{db.descriptions.bts}</p>
          </Quizes.Card>
 
          <Quizes.Card  href={db.links.rpg}>
-            <h3>Quiz RPG &rarr;  <Quizes.Logo src={db.icons.rpg} alt="rpg-icon"/></h3>
+            <h3>RPG &rarr;  <Quizes.Logo src={db.icons.rpg} alt="rpg-icon"/></h3>
             <p>{db.descriptions.rpg}</p>
          </Quizes.Card>
 
          <Quizes.Card href={db.links.harry}>
-            <h3>Quiz Harry Styles &rarr; <Quizes.Logo src={db.icons.harry} alt="watermelon"/></h3>
+            <h3>Harry Styles &rarr; <Quizes.Logo src={db.icons.harry} alt="watermelon"/></h3>
             <p>{db.descriptions.harry}</p>
          </Quizes.Card>
 
          <Quizes.Card href={db.links.pink}>
-            <h3>Quiz Black Pink &rarr; <Quizes.Logo src={db.icons.pink} alt="pink"/></h3>
+            <h3>Black Pink &rarr; <Quizes.Logo src={db.icons.pink} alt="pink"/></h3>
             <p>{db.descriptions.pink}</p>
          </Quizes.Card>
 
          <Quizes.Card href={db.links.snk}>
-            <h3>Quiz Shingenki &rarr; <Quizes.Snk src={db.icons.snk} alt="snk"/></h3>
+            <h3>Shingenki no Kyoshin &rarr; <Quizes.Snk src={db.icons.snk} alt="snk"/></h3>
             <p>{db.descriptions.snk}</p>
          </Quizes.Card>
          
